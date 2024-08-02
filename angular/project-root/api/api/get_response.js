@@ -1,7 +1,7 @@
 const openai = require('openai');
 require('dotenv').config();
 
-console.log("OpenAI API Key:", process.env.OPENAI_API_KEY); // Vérifiez que la clé API est correctement chargée
+console.log("OpenAI API Key:", process.env.OPENAI_API_KEY); 
 
 module.exports = async (req, res) => {
     const { userInput } = req.body;
