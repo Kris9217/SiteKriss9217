@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C_et_S Chatbot</title>
+    <style>
+        /* Ajoutez des styles CSS ici */
+        #debug-output {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-output"></div>
+    <input type="text" id="chat-input" placeholder="Tapez votre message...">
+    <input type="hidden" id="user-id" value="user123"> <!-- ID utilisateur caché -->
+    <button id="send-btn">Envoyer</button>
+
+    <div id="debug-output"></div> <!-- Section de débogage -->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
